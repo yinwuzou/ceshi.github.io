@@ -1,0 +1,15 @@
+ifconfig -a   #查ip
+
+进入mysql
+
+use mysql
+
+update user set host='%' where user='root' and host='localhost'
+
+vi /etc/mysql/mysql.conf.d/mysqld.cnf
+
+加#注释掉bind-address = 127.0.0.1 如下： #bind-address = 127.0.0.1 .
+
+sudo service mysql restart重启mysql
+
+确定阿里云管理控制台上 3306的端口已开启
