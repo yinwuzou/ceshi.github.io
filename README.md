@@ -11,7 +11,7 @@ ruaaaaaaaa<br>
 <script language="javascript">
 function myfunction
 {
-if(theform.Username.value.length==0&&theform.Password.value.length==0)
+if(form.Username.value.length==0&&form.Password.value.length==0)
 {alert("恭喜你！ 发现了盲点")
   window.location.href = "https://yinwuzou.github.io/ceshi.github.io/真.html";}
   else 
