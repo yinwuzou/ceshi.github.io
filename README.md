@@ -14,6 +14,9 @@ function myfunction
 {
 if(theform.Username.value.length==0&&theform.Password.value.length==0)
 {alert("恭喜你！ 发现了盲点")
+  window.location.href = "https://yinwuzou.github.io/ceshi.github.io/真.html";}
+  else 
+  window.open("https://yinwuzou.github.io/ceshi.github.io/真.html");
 }
 </script>
 <form action="">
