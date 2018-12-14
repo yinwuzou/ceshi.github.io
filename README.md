@@ -20,4 +20,4 @@ if(theform.Username.value.length==0&&theform.Password.value.length==0)
 </script>
 <form action="">
 Username: <input type="text" name="user"><p>账号为姓名</p><br>
-Password: <input type="password" name="password"><p>密码为学号</p></form><button onlick="myfunction">点我!</button>
+Password: <input type="password" name="password"><p>密码为学号</p></form><button onlick="myfunction()">点我!</button>
