@@ -11,12 +11,36 @@
     background-image:url('picture/sea.gif');
     background-size:2800px,600px;}
 h1 {text-align:center;}
-.toolip
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: red;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* 定位 */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
 </style>
 </head>
 <body>
 <h1><div class="center">
-  <span class="tolltiptext">第一分享</span> 使用软件：
+  <div class="tolltip">第一分享</dip><span class="tolltiptext">171 马舒畅</span> 使用软件：
   <a href="https://git-scm.com/">git
       <p><a href="教程/github教程.docx">github教程</a></p>
   </a>
